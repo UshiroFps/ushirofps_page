@@ -1,0 +1,58 @@
+		a:link{
+		text-decoration: none;
+		}
+		a:visited{
+		text-decoration: none;
+		}
+		a:hover{
+		text-decoration: none;
+		}
+		a:active{
+		text-decoration: none;
+		}
+		ul{
+		list-style: none;
+		}
+		header{
+		margin:0;
+		padding: 0;
+		}
+		nav{
+		background-color: #333;
+		}
+		nav ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-align: center;
+		}
+		nav ul li{
+		display: inline-block;
+		margin-right: 20px;
+		}
+		nav ul li:last-child {
+		margin-right: 0;
+		}
+		nav ul li a {
+		  color: white;
+		  text-decoration: none;
+		  padding: 10px 20px;
+		  display: block;
+		  transition: transform 0.3s ease, background-color 0.3s ease;
+		}
+		nav ul li a:hover {
+		  transform: translateY(3px); 
+		  background-color: #555; 
+		}
+		footer {
+		margin:0;
+		padding: 16px 32px 16px 32px;
+		}
+		main{
+		margin: 0px 32px 0px 32px;
+		justify-text: center;
+		}
+		
+		label {
+		display: block;
+		}
