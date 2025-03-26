@@ -43,11 +43,11 @@
 		nav ul li a:hover {
 		  transform: translateY(3px); 
 		  background-color: #555; 
-		}
+		}/*
 		footer {
 		margin:0;
 		padding: 16px 32px 16px 32px;
-		}
+		}*/
 		main{
 		margin: 0px 32px 0px 32px;
 		justify-text: center;
@@ -55,4 +55,10 @@
 		
 		label {
 		display: block;
+		}
+		.error{
+		color: #ff0000;
+		}
+		.you-win{
+		color: #00ff00;
 		}
